@@ -31,7 +31,7 @@ $students = [
         th, td {
             border: 2px solid black;
             padding: 6px;
-            text-align: left;
+            text-align: center;
             background-color: #d3d3d3; /* Light dark color for the table cells */
         }
     </style>
