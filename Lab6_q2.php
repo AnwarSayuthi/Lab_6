@@ -18,29 +18,28 @@
     </style>
 </head>
 <body>
-
-<?php
-// Associative array of students
-$students = array(
-    "S1001" => array("name" => "Alice", "email" => "alice@example.com"),
-    "S1002" => array("name" => "Bob", "email" => "bob@example.com"),
-    "S1003" => array("name" => "Charlie", "email" => "charlie@example.com")
-);
-
-// Display the content of the array in an HTML table
-echo "<table>";
-echo "<tr><th>Matric Number</th><th>Name</th><th>Email</th></tr>";
-
-foreach ($students as $matricNumber => $details) {
-    echo "<tr>";
-    echo "<td>$matricNumber</td>";
-    echo "<td>" . $details['name'] . "</td>";
-    echo "<td>" . $details['email'] . "</td>";
-    echo "</tr>";
-}
-
-echo "</table>";
-?>
-
+    <?php
+    // Associative array of students
+    $students = array(
+        array("name" => "John Doe", "program" => "Computer Science", "age" => 21),
+        array("name" => "Jane Smith", "program" => "Information Technology", "age" => 22),
+        array("name" => "Alice Johnson", "program" => "Software Engineering", "age" => 20),
+        array("name" => "Bob Brown", "program" => "Data Science", "age" => 23)
+    );
+    ?>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Program</th>
+            <th>Age</th>
+        </tr>
+        <?php foreach ($students as $student): ?>
+            <tr>
+                <td><?php echo htmlspecialchars($student["name"]); ?></td>
+                <td><?php echo htmlspecialchars($student["program"]); ?></td>
+                <td><?php echo htmlspecialchars($student["age"]); ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </table>
 </body>
 </html>
