@@ -12,7 +12,7 @@ $year_of_study = "2BIT";
 $address = "LOT 74, PEKAN PARIT SIKOM, 82100, PONTIAN, JOHOR";
 ?>
 
-<table border="1">
+<table border="2">
 <tr>
     <td>Name</td>
     <td><?php echo $name; ?></td>
