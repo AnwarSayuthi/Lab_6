@@ -25,12 +25,12 @@ $students = [
     <title>Lab 6 Q2</title>
     <style>
         table {
-            width: 50%;
+            width: 30%;
             border-collapse: collapse;
         }
         th, td {
-            border: 1px solid black;
-            padding: 8px;
+            border: 2px solid black;
+            padding: 6px;
             text-align: left;
             background-color: #d3d3d3; /* Light dark color for the table cells */
         }
