@@ -32,6 +32,7 @@ $students = [
             border: 1px solid black;
             padding: 8px;
             text-align: left;
+            background-color: #d3d3d3; /* Light dark color for the table cells */
         }
     </style>
 </head>
