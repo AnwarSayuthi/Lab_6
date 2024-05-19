@@ -10,6 +10,9 @@
             return $length * $width;
         }
 
+        // Define your chosen number
+        $chosenNumber = 7;
+
         // Calling the function with sample values
         $length = 5;
         $width = 10;
@@ -19,6 +22,6 @@
     <h1>Calculate Rectangle Area</h1>
     <p>Length: <?php echo $length; ?></p>
     <p>Width: <?php echo $width; ?></p>
-    <p>Area: <?php echo $area; ?></p>
+    <p>Area: <?php echo "The area of rectangle with $chosenNumber is $area"; ?></p>
 </body>
 </html>
