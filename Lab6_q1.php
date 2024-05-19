@@ -14,6 +14,9 @@ $address = "LOT 74, PEKAN PARIT SIKOM, 82100, PONTIAN, JOHOR";
 
 <table border="2">
 <tr>
+    <th colspan="2">Student Details</th>
+</tr>
+<tr>
     <td>Name</td>
     <td><?php echo $name; ?></td>
 </tr>
