@@ -22,6 +22,6 @@
     <h1>Calculate Rectangle Area</h1>
     <p>Length: <?php echo $length; ?></p>
     <p>Width: <?php echo $width; ?></p>
-    <p>Area: <?php echo "The area of rectangle with $chosenNumber is $area"; ?></p>
+    <h4>Area: <?php echo "The area of rectangle with $chosenNumber is $area"; ?></h4>
 </body>
 </html>
